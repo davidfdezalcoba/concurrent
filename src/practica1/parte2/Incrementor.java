@@ -10,6 +10,6 @@ public class Incrementor extends Thread {
 	
 	public void run() {
 		for(int i = 0; i < N; i++)
-		Parte2.n++;
+			Parte2.n++;
 	}
 }
